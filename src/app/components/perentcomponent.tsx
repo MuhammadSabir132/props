@@ -5,7 +5,7 @@ const ParentComponent = () => {
     let fvtdish = 'FvtDish : '+ "Biryani"
     let fvtcolor = 'FvtColor : '+ "Black"
     return (
-        <div className="flex flex-col justify-center  bg-gray-500 items-center">
+        <div className="flex flex-col justify-center h-screen bg-gray-500 items-center">
             <ChildComponent name={name} />
             <ChildComponent fvtdish={fvtdish} />
             <ChildComponent fvtcolor={fvtcolor} />
